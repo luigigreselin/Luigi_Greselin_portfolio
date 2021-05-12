@@ -14,6 +14,7 @@ Ask a home buyer to describe their dream house, and they probably won't begin wi
 I compared the results of Random Forest Regressor with GridSearchCV to refine the parameters and a fully connected Neural Network built on Keras. The first one hadd a R squared of 86 % on the cross validation, while the second one was tasted also on a held out dataset (30% of the training dataset) and produced a R squared of 88%.
 
 here below the predicted house prices from the NN on the test dataset
+
 ![](https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/predicted%20prices%20with%20NN.PNG)
 
 
