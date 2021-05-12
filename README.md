@@ -11,3 +11,12 @@ I used the Prophet model released by Fb to predict the total sales. I extracted 
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
 I compared the results of Random Forest Regressor with GridSearchCV to refine the parameters and a fully connected Neural Network built on Keras. The first one hadd a R squared of 86 % on the cross validation, while the second one was tasted also on a held out dataset (30% of the training dataset) and produced a R squared of 88%.
+
+
+# [Project 3: Digit Recognition](https://github.com/luigigreselin/digit_recognition)
+
+MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. In this competition, the goal was to correctly identify digits from a dataset of tens of thousands of handwritten images.
+
+I compared random Naive Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost. Logistic regession, SVC, KNN and XGboost required too much time to be trained (Logistic regression failed multiple times to converge), due to the large anount of features (28 by 28 pixels per image). Random forest proved to be the best on training dataset, with an accuracy of 96% on the cross validation score (I then reported the confusion matrix).
+
+Finally I built a CNN with two CL (and 2 dropout layers) and 2 dense layers at the end. In this second case I obtained an accuracy of 98.8 in my test dataset. Below you can see the summary of the CNN
