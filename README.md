@@ -5,7 +5,8 @@
 The case study is about predicting the future sales of a number of different liquor shops in un undefined area. Sales of the previous 5 years (from 2012 to 2017) are given weekly for 7 different drink categories. A second dataset reports which shops are present in a radius of 5 km for each single shop to take into account the competition between different shops.
 
 I used the Prophet model released by Fb to predict the total sales. I extracted the yearly trend, for the predicted performance in 2018, and then I classified them with an ANOVA, to check for differences between three homogenehous groups, being no competitors, few competitors and more then 6 competitors. No significant difference was found.
-![](https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/prophet_output.PNG)
+
+<img src="https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/prophet_output.PNG" width="600" height="300">
 
 # [Project 2: House price, REGRESSION](https://github.com/luigigreselin/HOUSE_PRICE_REGRESSION)
 
@@ -22,7 +23,7 @@ here below the predicted house prices from the NN on the test dataset
 
 MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. In this competition, the goal was to correctly identify digits from a dataset of tens of thousands of handwritten images.
 
-![](https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/digit%20example.jpg =100x20)
+<img src="https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/digit%20example.jpg" width="600" height="300">
 
 I compared random Naive Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost. Logistic regession, SVC, KNN and XGboost required too much time to be trained (Logistic regression failed multiple times to converge), due to the large anount of features (28 by 28 pixels per image). Random forest proved to be the best on training dataset, with an accuracy of 96% on the cross validation score (I then reported the confusion matrix).
 
