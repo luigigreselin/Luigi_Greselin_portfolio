@@ -6,7 +6,7 @@ The case study is about predicting the future sales of a number of different liq
 
 I used the Prophet model released by Fb to predict the total sales. I extracted the yearly trend, for the predicted performance in 2018, and then I classified them with an ANOVA, to check for differences between three homogenehous groups, being no competitors, few competitors and more then 6 competitors. No significant difference was found.
 
-<img src="https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/prophet_output.PNG" width="600" height="300">
+<img src="/images/prophet_output.PNG" width="600" height="300">
 
 # [Project 2: House price, REGRESSION](https://github.com/luigigreselin/HOUSE_PRICE_REGRESSION)
 
@@ -16,7 +16,7 @@ I compared the results of Random Forest Regressor with GridSearchCV to refine th
 
 here below the predicted house prices from the NN on the test dataset
 
-![](/predicted%20prices%20with%20NN.PNG)
+![](images/predicted%20prices%20with%20NN.PNG)
 
 
 # [Project 3: Digit Recognition, IMAGE ANALYSIS](https://github.com/luigigreselin/digit_recognition)
