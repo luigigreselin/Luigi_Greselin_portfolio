@@ -16,7 +16,7 @@ I compared the results of Random Forest Regressor with GridSearchCV to refine th
 
 here below the predicted house prices from the NN on the test dataset
 
-![](https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/predicted%20prices%20with%20NN.PNG)
+![](/predicted%20prices%20with%20NN.PNG)
 
 
 # [Project 3: Digit Recognition, IMAGE ANALYSIS](https://github.com/luigigreselin/digit_recognition)
