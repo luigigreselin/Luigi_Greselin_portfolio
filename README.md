@@ -26,4 +26,4 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 
 I compared random Naive Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost. Logistic regession, SVC, KNN and XGboost required too much time to be trained (Logistic regression failed multiple times to converge), due to the large anount of features (28 by 28 pixels per image). Random forest proved to be the best on training dataset, with an accuracy of 96% on the cross validation score (I then reported the confusion matrix).
 
-Finally I built a CNN with two CL (and 2 dropout layers) and 2 dense layers at the end. In this second case I obtained an accuracy of 98.8 in my test dataset. Below you can see the summary of the CNN
+Finally I built a CNN with two CL (and 2 dropout layers) and 2 dense layers at the end. In this second case I obtained an accuracy of 98.8 in my test dataset. 
