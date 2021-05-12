@@ -12,7 +12,7 @@ I used the Prophet model released by Fb to predict the total sales. I extracted 
 
 # [Project 2: House price, REGRESSION](https://github.com/luigigreselin/HOUSE_PRICE_REGRESSION)
 
-![](/images/house%20price%20image.PNG)
+![](/images/house_price_image.PNG)
 
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
@@ -20,7 +20,7 @@ I compared the results of Random Forest Regressor with GridSearchCV to refine th
 
 # [Project 3: Digit Recognition, IMAGE ANALYSIS](https://github.com/luigigreselin/digit_recognition)
 
-![](/images/digit%20values.jpg)
+![](/images/digit_values.jpg)
 
 MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. In this competition, the goal was to correctly identify digits from a dataset of tens of thousands of handwritten images.
 
