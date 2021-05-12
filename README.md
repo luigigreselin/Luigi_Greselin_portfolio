@@ -22,6 +22,8 @@ here below the predicted house prices from the NN on the test dataset
 
 MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. In this competition, the goal was to correctly identify digits from a dataset of tens of thousands of handwritten images.
 
+![](https://github.com/luigigreselin/Luigi_Greselin_portfolio/blob/main/digit%20example.jpg)
+
 I compared random Naive Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost. Logistic regession, SVC, KNN and XGboost required too much time to be trained (Logistic regression failed multiple times to converge), due to the large anount of features (28 by 28 pixels per image). Random forest proved to be the best on training dataset, with an accuracy of 96% on the cross validation score (I then reported the confusion matrix).
 
 Finally I built a CNN with two CL (and 2 dropout layers) and 2 dense layers at the end. In this second case I obtained an accuracy of 98.8 in my test dataset. Below you can see the summary of the CNN
